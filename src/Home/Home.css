@@ -1,0 +1,11 @@
+.home {
+    display: flex;
+    flex-direction: row;
+}
+
+.feed{
+    flex: 0.8;
+}
+.navSide {
+    flex: 0.2;
+}

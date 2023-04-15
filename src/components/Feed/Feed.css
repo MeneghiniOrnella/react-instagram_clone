@@ -1,0 +1,11 @@
+.feed {
+    display: flex;
+    flex-direction: row;
+}
+
+.left {
+    flex: 0.7;
+}
+.right {
+    flex: 0.3;
+}

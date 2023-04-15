@@ -1,0 +1,16 @@
+.sideNav {
+    position: fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    z-index: 1;
+}
+
+.logo {
+    background-color: rgb(243, 102, 210);
+    width: 7.5rem;
+    margin: 1.5625rem;
+}
+li {
+    list-style: none;
+}
