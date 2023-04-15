@@ -18,17 +18,15 @@ function SideNav() {
         Instagram
       </div>
       <ul>
-        <li><HomeIcon /> <span>Home</span></li>
-        <li><SearchIcon /> <span>Search</span></li>
-        <li><ExploreIcon /> <span>Explore</span></li>
-        <li><ReelsIcon /> <span>Reels</span></li>
-        <li><MessageIcon /> <span>Messages</span></li>
-        <li><NotificationsIcon /> <span>Notifications</span></li>
-        <li><CreateIcon /> <span>Create</span></li>
-        <li><ProfileIcon /> <span>Profile</span></li>
-      </ul>
-      <ul>
-        <li><MoreIcon /> <span>More</span></li>
+        <li><a href='https://www.instagram.com/'><HomeIcon /><span>Home</span></a></li>
+        <li><a href='https://www.instagram.com/'><SearchIcon /><span>Search</span></a></li>
+        <li><a href='https://www.instagram.com/'><ExploreIcon /><span>Explore</span></a></li>
+        <li><a href='https://www.instagram.com/'><ReelsIcon /><span>Reels</span></a></li>
+        <li><a href='https://www.instagram.com/'><MessageIcon /><span>Messages</span></a></li>
+        <li><a href='https://www.instagram.com/'><NotificationsIcon /><span>Notifications</span></a></li>
+        <li><a href='https://www.instagram.com/'><CreateIcon /><span>Create</span></a></li>
+        <li><a href='https://www.instagram.com/'><ProfileIcon /><span>Profile</span></a></li>
+        <li className='more'><a href='https://www.instagram.com/'><MoreIcon /><span>More</span></a></li>
       </ul>
     </section>
   );
