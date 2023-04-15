@@ -1,15 +1,8 @@
 import React from 'react';
 import './SideNav.css';
+import { ControlPoint, Explore, FavoriteBorderOutlined, Home, Mms, MovieFilter, Search } from '@mui/icons-material';
+import { Avatar } from '@mui/material';
 
-import HomeIcon from '@mui/icons-material/Home';
-import SearchIcon from '@mui/icons-material/Search';
-import ExploreIcon from '@mui/icons-material/Explore';
-import ReelsIcon from '@mui/icons-material/MovieFilter';
-import MessageIcon from '@mui/icons-material/Chat';
-import NotificationsIcon from '@mui/icons-material/FavoriteBorder';
-import CreateIcon from '@mui/icons-material/AddBox';
-import ProfileIcon from '@mui/icons-material/AccountCircle';
-import MoreIcon from '@mui/icons-material/Menu';
 
 function SideNav() {
   return (
@@ -18,15 +11,59 @@ function SideNav() {
         Instagram
       </div>
       <ul>
-        <li><a href='https://www.instagram.com/'><HomeIcon /><span>Home</span></a></li>
-        <li><a href='https://www.instagram.com/'><SearchIcon /><span>Search</span></a></li>
-        <li><a href='https://www.instagram.com/'><ExploreIcon /><span>Explore</span></a></li>
-        <li><a href='https://www.instagram.com/'><ReelsIcon /><span>Reels</span></a></li>
-        <li><a href='https://www.instagram.com/'><MessageIcon /><span>Messages</span></a></li>
-        <li><a href='https://www.instagram.com/'><NotificationsIcon /><span>Notifications</span></a></li>
-        <li><a href='https://www.instagram.com/'><CreateIcon /><span>Create</span></a></li>
-        <li><a href='https://www.instagram.com/'><ProfileIcon /><span>Profile</span></a></li>
-        <li className='more'><a href='https://www.instagram.com/'><MoreIcon /><span>More</span></a></li>
+        <li>
+          <a href='https://www.instagram.com/'>
+            <Home className='icon' />
+            <span>Home</span>
+          </a>
+        </li>
+        <li>
+          <a href='https://www.instagram.com/'>
+            <Search className='icon' />
+            <span>Search</span>
+          </a>
+        </li>
+        <li>
+          <a href='https://www.instagram.com/'>
+            <Explore className='icon' />
+            <span>Explore</span>
+          </a>
+        </li>
+        <li>
+          <a href='https://www.instagram.com/'>
+            <MovieFilter className='icon' />
+            <span>Reels</span>
+          </a>
+        </li>
+        <li>
+          <a href='https://www.instagram.com/'>
+            <Mms className='icon' />
+            <span>Messages</span>
+          </a>
+        </li>
+        <li>
+          <a href='https://www.instagram.com/'>
+            <FavoriteBorderOutlined className='icon' />
+            <span>Notifications</span>
+          </a>
+        </li>
+        <li>
+          <a href='https://www.instagram.com/'>
+            <ControlPoint className='icon' />
+            <span>Create</span>
+          </a>
+        </li>
+        <li>
+          <a href='https://www.instagram.com/'>
+            <Avatar className='icon'>M</Avatar>
+            <span>Profile</span>
+          </a>
+        </li>
+        <li className='more'>
+          <a href='https://www.instagram.com/'>
+            <ControlPoint className='icon' />
+            <span>More</span></a>
+          </li>
       </ul>
     </section>
   );

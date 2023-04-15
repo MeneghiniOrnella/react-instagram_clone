@@ -1,13 +1,17 @@
 import React from 'react';
 import './Feed.css';
-import Suggestions from '../Suggestions/Suggestions';
+import Post from './Post/Post';
+import Suggestions from './Suggestions/Suggestions';
 
 function Feed() {
   return (
     <section>
-      <div className="left">Feed left</div>
-      <div className="right">Feed right</div>
-      <Suggestions />
+      <div className="left">
+        <Post />
+      </div>
+      <div className="right">
+        <Suggestions />
+      </div>
     </section>
   );
 }

@@ -3,7 +3,7 @@ import './Suggestions.css';
 
 function Suggestions() {
   return (
-    <section>Suggestions</section>
+    <div>Suggestions</div>
   );
 }
 
