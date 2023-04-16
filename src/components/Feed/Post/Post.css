@@ -30,6 +30,6 @@
     -o-border-radius: 0.375rem ;
     border: 0.0375rem solid rgba(128, 128, 128, 0.516);
 }
-.icon {
+.icon:hover {
     cursor: pointer;
 }
