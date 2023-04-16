@@ -2,3 +2,11 @@
   color: #fff;
   background-color: #000;
 }
+
+ul {
+  display: flex;
+  flex-direction: column;
+}
+li {
+  list-style: none;
+}

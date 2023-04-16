@@ -9,7 +9,7 @@ function Post({ user, postImg, likes, timestamp }) {
     <div className='post'>
       <div className="header">
         <div className="left">
-          <Avatar className="icon">{ user.charAt(0).toUpperCase() }</Avatar>
+          <Avatar className="avatar">{ user.charAt(0).toUpperCase() }</Avatar>
           { user } • <span>{ timestamp }</span>
         </div>
         <div className="right">

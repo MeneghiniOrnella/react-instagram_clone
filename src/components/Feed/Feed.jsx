@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Feed.css';
 import Post from './Post/Post';
-import Suggestions from './Suggestions/Suggestions';
+import Suggestion from './Suggestions/Suggestions';
 
 function Feed() {
   const [posts, setPosts] = useState([
@@ -25,6 +25,21 @@ function Feed() {
     }
   ]);
 
+  const [suggestions, setSuggestions] = useState([
+    {
+      user: 'food_fashion',
+      relation:''
+    },
+    {
+      user: 'dogOne',
+      relation:''
+    },
+    {
+      user: 'potter_plus',
+      relation:''
+    }
+  ]);
+
   return (
     <section>
       <div className="left">
@@ -40,7 +55,29 @@ function Feed() {
         </div>
       </div>
       <div className="right">
-        <Suggestions />
+        <div>
+          <div className="title">Suggestions for you</div>
+          <a href='https://www.instagram.com/' className="seeAll">See All</a>
+        </div>
+        { suggestions.map((suggestion) => (
+          <Suggestion
+            user={ suggestion.user }
+            relation={ suggestion.relation }
+          />
+        )) }
+        <div className="footer">
+          <a href="https://www.instagram.com/">About</a>
+          <a href="https://www.instagram.com/">Help</a>
+          <a href="https://www.instagram.com/">Press</a>
+          <a href="https://www.instagram.com/">API</a>
+          <a href="https://www.instagram.com/">Jobs</a>
+          <a href="https://www.instagram.com/">Privacy</a>
+          <a href="https://www.instagram.com/">Terms</a>
+          <a href="https://www.instagram.com/">Locations</a>
+          <a href="https://www.instagram.com/">Language</a>
+          <a href="https://www.instagram.com/">Meta Verified</a>
+          <p>© 2023 INSTAGRAM FROM META</p>
+        </div>
       </div>
     </section>
   );
