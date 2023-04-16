@@ -1,5 +1,6 @@
 import React from 'react';
 import './Suggestions.css';
+import { Avatar } from '@mui/material';
 
 function Suggestions() {
   return (
@@ -10,7 +11,13 @@ function Suggestions() {
       </div>
       <div className="usernames">
         <div className="username">
-          <div className="left"></div>
+          <div className="left">
+            <Avatar>A</Avatar>
+            <div className="info">
+              <span className="username">username</span>
+              <span className="relation">relation</span>
+            </div>
+          </div>
           <a href='https://www.instagram.com/' className="follow">Follow</a>
         </div>
       </div>
