@@ -8,7 +8,7 @@ function SideNav() {
   return (
     <section>
       <div className="logo">
-        Instagram
+        <img src="public/logotipo.png" alt="Instagram" />
       </div>
       <ul>
         <li>

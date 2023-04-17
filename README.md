@@ -44,3 +44,4 @@ To learn React, check out the [React documentation](https://reactjs.org/).
 ## Other info
 - [Material icons](https://mui.com/material-ui/material-icons/?query=search)
 - [Images](https://pixabay.com)
+- [Favicon](https://icon-icons.com/es/download/113804/ICO/512/)

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import './Feed.css';
 import Post from './Post/Post';
-import Suggestion from './Suggestions/Suggestions';
+import Suggestion from '../Suggestions/Suggestions';
 
 function Feed() {
   const [posts, setPosts] = useState([
